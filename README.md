@@ -39,7 +39,7 @@ Tu peux vérifier que le fichier a bien disparu du repo distant via l'interface 
 
 Les quelques commandes que tu viens d'utiliser (`git status`, `git add`, `git commit`, `git pull`, `git push`) sont les commandes que tu utiliseras 95% du temps.
 
-## Partie 3 : Collaboration, branches et merge requests
+## Partie 2 : Collaboration, branches et merge requests
 
 Pour pouvoir travailler séparément sur des features différentes on utilise des branches, cette fonctionnalité est particulièrement pratique pour faire avancer en même temps plusieurs versions du même code qui implémentent des fonctionnalités différentes.
 

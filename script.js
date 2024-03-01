@@ -10,7 +10,7 @@ add.addEventListener("click" , ()=>{
     var paragraph=document.createElement('p');
     list.appendChild(paragraph);
     paragraph.innerText=saisir.value;
-    paragraph.style.padding='0px 0px 0px 150px'
+    paragraph.style.padding='0px 0px 0px 120px'
     paragraph.addEventListener('click', ()=>{
         paragraph.style.textDecoration="line-through";
     })
@@ -18,8 +18,6 @@ add.addEventListener("click" , ()=>{
         list.removeChild(paragraph);
     })
     
-
-   
     saisir.value=''
 
 });

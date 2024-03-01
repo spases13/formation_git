@@ -5,6 +5,8 @@ var row2=document.querySelector("#row2");
 var list=document.querySelector("#list");
 var todolist=document.getElementById("row2")
 
+var API_KEY =  process.env.API_KEY
+
 //addeventlistner
 add.addEventListener("click" , ()=>{
     var paragraph=document.createElement('p');
